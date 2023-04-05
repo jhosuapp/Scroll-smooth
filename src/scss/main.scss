@@ -1,0 +1,17 @@
+body::-webkit-scrollbar{
+    /* width: 0; */
+    opacity: 0;
+    z-index: -1;
+    background-color: transparent;
+    width: 10px;
+}
+.main-scroll{
+    position: fixed;
+    top: 0;
+    right: -5px;
+    z-index: 99999;
+    background-color: rgb(29, 37, 155);
+    width: 10px;
+    border-radius: 100px;
+    transition: 1s ease top;
+}
